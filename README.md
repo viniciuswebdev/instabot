@@ -28,7 +28,7 @@ https://www.npmjs.com/
   - findfollowers.js
     - TAG (The script will follow people using this hashtag)
   - follow.js
-    - FOLLOW_BUTTON_NAME (Depends on your language, ex: Follow, Seguir)
+    - FOLLOW_BUTTON_NAME (Depends on your language, ex: Follow, Seguir, Folgen)
   - unfollow.js
     - FOLLOW_BUTTON_NAME (Depends on your language, ex: Following, Seguindo)
 
