@@ -24,11 +24,11 @@ https://www.npmjs.com/
   - login.js
     - YOUR_USERNAME
     - YOUR_PASSWORD
-    - ENTER_BUTTON_NAME (Depends on your language, ex: Log In, Entrar)
+    - ENTER_BUTTON_NAME (Depends on your language, ex: Log In, Entrar, Anmelden)
   - findfollowers.js
     - TAG (The script will follow people using this hashtag)
   - follow.js
-    - FOLLOW_BUTTON_NAME (Depends on your language, ex: Follow, Seguir)
+    - FOLLOW_BUTTON_NAME (Depends on your language, ex: Follow, Seguir, Folgen)
   - unfollow.js
     - FOLLOW_BUTTON_NAME (Depends on your language, ex: Following, Seguindo)
 
@@ -38,14 +38,14 @@ You need to run each script to get the desired behavior
 
 ### login.js
 
-`casperjs --verbose  --log-level=debug  --ignore-ssl-errors=true  --ssl-protocol=any --cookies-file=/tmp/cookies test unfollow.js`
+`casperjs --verbose  --log-level=debug  --ignore-ssl-errors=true  --ssl-protocol=any --cookies-file=/tmp/cookies test login.js`
 
 This script login in your account, it is using the file `/tmp/cookies` to store your login information, so you don't need login
 again to perform each action. You will login once, given that the session will expire, will need to run the login again.
 
 ### findfollowers.js
 
-`casperjs --verbose  --log-level=debug  --ignore-ssl-errors=true  --ssl-protocol=any --cookies-file=/tmp/cookies test unfollow.js`
+`casperjs --verbose  --log-level=debug  --ignore-ssl-errors=true  --ssl-protocol=any --cookies-file=/tmp/cookies test findfollowers.js`
 
 This script will search for your chosen hashtag and store 10 people in the `/tmp/peopletofollow`
 
