@@ -24,7 +24,7 @@ https://www.npmjs.com/
   - login.js
     - YOUR_USERNAME
     - YOUR_PASSWORD
-    - ENTER_BUTTON_NAME (Depends on your language, ex: Log In, Entrar)
+    - ENTER_BUTTON_NAME (Depends on your language, ex: Log In, Entrar, Anmelden)
   - findfollowers.js
     - TAG (The script will follow people using this hashtag)
   - follow.js
