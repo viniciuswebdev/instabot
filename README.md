@@ -38,14 +38,14 @@ You need to run each script to get the desired behavior
 
 ### login.js
 
-`casperjs --verbose  --log-level=debug  --ignore-ssl-errors=true  --ssl-protocol=any --cookies-file=/tmp/cookies test unfollow.js`
+`casperjs --verbose  --log-level=debug  --ignore-ssl-errors=true  --ssl-protocol=any --cookies-file=/tmp/cookies test login.js`
 
 This script login in your account, it is using the file `/tmp/cookies` to store your login information, so you don't need login
 again to perform each action. You will login once, given that the session will expire, will need to run the login again.
 
 ### findfollowers.js
 
-`casperjs --verbose  --log-level=debug  --ignore-ssl-errors=true  --ssl-protocol=any --cookies-file=/tmp/cookies test unfollow.js`
+`casperjs --verbose  --log-level=debug  --ignore-ssl-errors=true  --ssl-protocol=any --cookies-file=/tmp/cookies test findfollowers.js`
 
 This script will search for your chosen hashtag and store 10 people in the `/tmp/peopletofollow`
 
