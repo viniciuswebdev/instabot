@@ -1,6 +1,6 @@
-var YOUR_USERNAME = 'YOUR_USER';
-var YOUR_PASSWORD = 'YOUR_PASSWORD';
-var ENTER_BUTTON_NAME = 'Entrar';
+var YOUR_USERNAME = 'georgianjagjit';
+var YOUR_PASSWORD = 'khalsapd';
+var ENTER_BUTTON_NAME = 'follow';
 
 casper.test.begin('Instagram login', 1, 
     function suite(test) {
