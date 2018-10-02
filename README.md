@@ -17,6 +17,12 @@ http://casperjs.org/
 To install CasperJS you need a dependency manager called NPM
 https://www.npmjs.com/
 
+After installing NPM, run the following command in the terminal:
+
+```bash
+npm install -g casperjs
+```
+
 ## Getting started
 
 - Download source files.
